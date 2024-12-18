@@ -1,0 +1,23 @@
+url_books:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/url_books.csv
+  versioned: True
+  save_args:
+    index: False
+    encoding: utf-8
+
+info_books:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/info_books.csv
+  versioned: True
+  save_args:
+    index: False
+    encoding: utf-8
+
+profile_books:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/info_profile_reviews.csv
+  versioned: True
+  save_args:
+    index: False
+    encoding: utf-8

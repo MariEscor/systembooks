@@ -1,0 +1,16 @@
+# This is a boilerplate parameters config generated for pipeline 'books'
+# using Kedro 0.19.6.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.6/configuration/parameters.html
+# Confirma se o parâmetro 'base_url' está configurado corretamente
+
+param_url_books:
+  base_url: "https://www.goodreads.com/list/show/18225.Hottest_Adult_Young_Adult_Romance_Books_"
+  output_csv_file_path: "data/01_raw/url_books.csv"
+
+param_info_books:
+  base_info: "data/01_raw/url_books.csv"
+
+param_profile_books:
+  base_profile: "data/01_raw/url_books.csv"
